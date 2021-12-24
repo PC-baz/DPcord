@@ -1,0 +1,16 @@
+{
+  "name": "dpcord",
+  "version": "1.0.0",
+  "description": "The DPcord ot",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "PC_baz",
+  "license": "ISC",
+  "dependencies": {
+    "button": "^1.1.1",
+    "discord-buttons": "^2.4.1",
+    "discord.js": "^12.5.3"
+  }
+}
