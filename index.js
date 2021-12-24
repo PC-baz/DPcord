@@ -1,6 +1,6 @@
 //bot
 const Discord  = require('discord.js');
-const token = 'OTIxMDQwMDg0MjA2MjMxNjAy.YbtHbA.fXTceTAv6HOotc4l73W7pfCOhAM';
+const token = 'OTIxMDQwMDg0MjA2MjMxNjAy.YbtHbA.97yclLUC4Xb9miTjDXKiJ54sY8k';
 const bot = new Discord.Client();
 const disbut = require('discord-buttons')(bot);
 //prefix
@@ -33,7 +33,8 @@ bot.on('message', message => {
 			let last = new Discord.MessageEmbed()
 			.setTitle("last servers:")
 			.addField("public server #3", "None")
-			.addField("roblox #2", "None")	
+			.addField("roblox #2", "None")
+	
 			.addField("public game #5", "None")
 			message.channel.send(last)
 		}
